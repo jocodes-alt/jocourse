@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback and Penalties</title>
+    <style>
+
+
+       
+
+
+footer {
+           
+           height: 60px;
+           background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+           color: #fff;
+           text-align: center;
+           padding: 10px 0;
+           clear: both; /* Assure que le footer est positionné en dessous du contenu */
+           width: 100%;
+           box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+         }
+
+table {
+  border: 1px solid black; 
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif; /* or any preferred font */
+}
+
+thead th {
+  background-color: #246cd8; /* Change to your desired color */
+  color: white;
+  padding: 12px; /* Adjust padding as needed */
+  font-size: 25px; /* Adjust font size for better readability */
+}
+
+tbody td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Adds a border under each row */
+  font-size: 20px; /* Adjust font size for better readability */
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5; /* Optional: Adds a hover effect on rows */
+}
+
+/* Optional: Add some spacing around the table */
+table {
+  margin: 20px 0;
+}
+
+
+
+
+
+      
+      h1{
+      
+            margin-left: 80px;
+            font-size: 45px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        
+      }
+      
+        table {
+          margin: auto;
+          padding: auto;
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+  width: auto;
+  height: 70px;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar .logo span {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: #ffd700; /* Gold color on hover */
+}
+        
+    </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+        <img src="R.png" alt="Courses Logo">
+        <span>Joseph Courses</span>
+    </div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="Course.html">Courses</a>
+        <a href="DIPH.html">Driving Instructions and Penalties</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+    <h1>Table of Feedback to Give</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>French</th>
+                <th>English</th>
+                <th>Audio</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1er angle mort non vérifier en cv (B.1.3): Très important de vérifier votre angle mort avant le changement de voie.</td>
+            <td>First blind spot not checked in cv (B.1.3): Very important to check your blind spot before changing lanes.</td>
+            <td><audio controls src="tts1MP3.com_VoiceText_2024-8-11_14-11-15.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Adaptation (B.3.2) (ex: frôlage): Attention! on frôle les voitures, éloignez-vous s.v.p.</td>
+            <td>Adaptation (B.3.2) (e.g., close to cars): Attention! We are too close to the cars, please move away.</td>
+            <td><audio controls src="tts2MP3.com_VoiceText_2024-8-11_14-11-56.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Vitesse lente (B.3.3): Attention! on roule à 30 dans une zone de 50, rapprochez-vous des limites de vitesses s.v.p.</td>
+            <td>Slow speed (B.3.3): Attention! We are driving at 30 km/h in a 50 km/h zone, please approach the speed limits.</td>
+            <td><audio controls src="tts3MP3.com_VoiceText_2024-8-11_14-12-17.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Signaux d’arrêts obligatoires (C.1.1):<br>1er ligne (Quasi-arrêt): Très important de faire des arrêts complets devant un panneau de stop s.v.p.</td>
+            <td>Mandatory stop signals (C.1.1):<br>First line (Near stop): Very important to come to a complete stop at a stop sign, please.</td>
+            <td><audio controls src="tts4MP3.com_VoiceText_2024-8-11_14-12-39.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>2ème ligne (passer un stop, feu rouge): Stop, Stop, Stop, on vient de passer un stop, lumière rouge (en la montrant)</td>
+            <td>Second line (passing a stop, red light): Stop, Stop, Stop, we just passed a stop sign, red light (showing it)</td>
+            <td><audio controls src="tts5MP3.com_VoiceText_2024-8-11_14-12-54.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Vitesse réglementaire (C.1.2): Attention! On roule à 60 dans une zone de 50, ralentissez svp.</td>
+            <td>Regulatory speed (C.1.2): Attention! We are driving at 60 km/h in a 50 km/h zone, please slow down.</td>
+            <td><audio controls src="tts6MP3.com_VoiceText_2024-8-11_14-26-42.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Priorité de passage (C.1.3): Stop, Stop, Stop, le (véhicule, piéton, cycliste) est prioritaire, on ne doit pas le couper.</td>
+            <td>Right of way (C.1.3): Stop, Stop, Stop, the (vehicle, pedestrian, cyclist) has the right of way, we must not cut them off.</td>
+            <td><audio controls src="tts7MP3.com_VoiceText_2024-8-11_14-27-54.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Autres Règles (C.1.5):<br>Mauvaise voie: Très important de tourner à la 1ère voie disponible. s.v.p.</td>
+            <td>Other Rules (C.1.5):<br>Wrong lane: Very important to turn at the first available lane, please.</td>
+            <td><audio controls src="tts8MP3.com_VoiceText_2024-8-11_14-28-44.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Ligne continue: Attention! il ne faut pas franchir de lignes continues au changement de voie.</td>
+            <td>Solid line: Attention! Do not cross solid lines when changing lanes.</td>
+            <td><audio controls src="tts9MP3.com_VoiceText_2024-8-11_14-29-16.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Mauvaise interprétation de signalisation (ex: tourner à la flèche droite): Attention! Il faut attendre la bonne signalisation pour tourner.</td>
+            <td>Misinterpretation of of traffic signs (e.g., turning at the right arrow): Attention! Wait for the correct signal before turning.</td>
+            <td><audio controls src="tts10MP3.com_VoiceText_2024-8-11_14-30-11.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Voie réservée ou hachurée: Attention! On circule sur une voie réservée ou hachurée.</td>
+            <td>Reserved or hatched lane: Attention! We are driving in a reserved or hatched lane.</td>
+            <td><audio controls src="tts11MP3.com_VoiceText_2024-8-11_14-30-41.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Une précision, un collègue va nous accompagner, il sera juste un observateur</td>
+            <td>Just to clarify, a colleague will be joining us, but he will only be an observer.</td>
+            <td><audio controls src="t1tsMP3.com_VoiceText_2024-8-15_12-38-45.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Voie réservée ou hachurée: Attention! On circule sur une voie réservée ou hachurée.</td>
+            <td>Reserved or hatched lane: Attention! We are driving in a reserved or hatched lane.</td>
+            <td><audio controls src="t2tsMP3.com_VoiceText_2024-8-15_12-35-10.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Vous avez oublié de vérifier votre angle mort à deux/trois reprises</td>
+            <td>You forgot to check your blind spot two or three times.</td>
+            <td><audio controls src="t3tsMP3.com_VoiceText_2024-8-15_12-35-36.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Vous n'avez pas adapté votre vitesse</td>
+            <td>You did not adjust your speed.</td>
+            <td><audio controls src="t4tsMP3.com_VoiceText_2024-8-15_12-36-0.mp3"></audio></td>
+        </tr>
+        
+        <tr>
+            <td>Maintenez une distance de sécurité avec le véhicule devant vous.</td>
+            <td>Maintain a safe distance from the vehicle in front of you.</td>
+            <td><audio controls src="t5tsMP3.com_VoiceText_2024-8-15_12-58-4.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Assurez-vous de bien signaler vos intentions avant de changer de voie.</td>
+            <td>Make sure to clearly signal your intentions before changing lanes.</td>
+            <td><audio controls src="t6tsMP3.com_VoiceText_2024-8-15_12-58-38.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Respectez les limitations de vitesse en vigueur dans cette zone.</td>
+            <td>Follow the speed limits in effect in this area.</td>
+            <td><audio controls src="t7tsMP3.com_VoiceText_2024-8-15_12-59-21.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Vérifiez toujours vos rétroviseurs avant de freiner brusquement.</td>
+            <td>Always check your mirrors before braking suddenly.</td>
+            <td><audio controls src="t8tsMP3.com_VoiceText_2024-8-15_12-59-43.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Ne dépassez pas par la droite, c'est dangereux</td>
+            <td>Do not overtake on the right; it's dangerous.</td>
+            <td><audio controls src="t9tsMP3.com_VoiceText_2024-8-15_13-0-5.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Faites attention aux piétons, surtout près des passages cloutés.</td>
+            <td>Be mindful of pedestrians, especially near crosswalks.</td>
+            <td><audio controls src="t10tsMP3.com_VoiceText_2024-8-15_13-0-24.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Ne vous engagez pas dans un rond-point sans vérifier qu'il est dégagé.</td>
+            <td>Do not enter a roundabout without ensuring it's clear.</td>
+            <td><audio controls src="t11tsMP3.com_VoiceText_2024-8-15_13-0-47.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Anticipez les mouvements des autres conducteurs pour éviter les accidents.</td>
+            <td>Anticipate the movements of other drivers to avoid accidents.</td>
+            <td><audio controls src="t12tsMP3.com_VoiceText_2024-8-15_13-1-10.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Évitez de rester trop longtemps dans l'angle mort des autres véhicules.</td>
+            <td>Avoid staying too long in the blind spot of other vehicles.</td>
+            <td><audio controls src="t13tsMP3.com_VoiceText_2024-8-15_13-1-30.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Réduisez votre vitesse dans les zones de travaux.</td>
+            <td>Reduce your speed in construction zones.</td>
+            <td><audio controls src="t14tsMP3.com_VoiceText_2024-8-15_13-1-49.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Assurez-vous de respecter les panneaux de limite de vitesse en kilomètres par heure.</td>
+            <td>Make sure to follow the speed limit signs in kilometers per hour.</td>
+            <td><audio controls src="t15tsMP3.com_VoiceText_2024-8-15_13-11-22.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Soyez vigilant lors de la conduite en hiver, les routes peuvent être glissantes.</td>
+            <td>Be cautious when driving in winter; the roads can be slippery.</td>
+            <td><audio controls src="t16tsMP3.com_VoiceText_2024-8-15_13-12-17.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>N'oubliez pas de céder le passage aux piétons dans les zones scolaires.</td>
+            <td>Remember to yield to pedestrians in school zones.</td>
+            <td><audio controls src="t17tsMP3.com_VoiceText_2024-8-15_13-14-1.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Utilisez vos feux de détresse si vous devez vous arrêter en bord de route en cas de neige ou de brouillard.</td>
+            <td>Use your hazard lights if you need to stop on the roadside during snow or fog.</td>
+            <td><audio controls src="t18tsMP3.com_VoiceText_2024-8-15_13-14-29.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Soyez prêt à ralentir près des passages à niveau, les trains peuvent être longs.</td>
+            <td>Be ready to slow down near railway crossings; trains can be long.
+            </td>
+            <td><audio controls src="t19tsMP3.com_VoiceText_2024-8-15_13-14-55.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Surveillez les animaux sauvages sur les routes, surtout dans les régions rurales.</td>
+            <td>Watch out for wildlife on the roads, especially in rural areas.</td>
+            <td><audio controls src="t20tsMP3.com_VoiceText_2024-8-15_13-15-14.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Gardez vos phares allumés en tout temps pendant la conduite en dehors des villes.</td>
+            <td>Keep your headlights on at all times when driving outside of cities.</td>
+            <td><audio controls src="t21tsMP3.com_VoiceText_2024-8-15_13-15-48.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Ne dépassez pas les autobus scolaires lorsque leurs feux rouges clignotent.</td>
+            <td>Do not pass school buses when their red lights are flashing.</td>
+            <td><audio controls src="t22tsMP3.com_VoiceText_2024-8-15_13-16-13.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Soyez attentif aux panneaux en français et en anglais, surtout dans les régions bilingues.</td>
+            <td>Be attentive to signs in both French and English, especially in bilingual regions.</td>
+            <td><audio controls src="t23tsMP3.com_VoiceText_2024-8-15_13-17-10.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td>Réduisez votre vitesse dans les zones où la signalisation indique la présence d'enfants.</td>
+            <td>Reduce your speed in areas where signs indicate the presence of children.
+          </td>
+            <td><audio controls src="t24tsMP3.com_VoiceText_2024-8-15_13-17-35.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><audio controls src=""></audio></td>
+        </tr>
+
+        </tbody>
+    </table>
+    
+    <h1>Penalties C.1.5</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>French</th>
+                <th>English</th>
+                <th>Audio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mauvaise Voie</td>
+                <td>Wrong Lane</td>
+                <td><audio controls>
+                    <source src="m1ttsMP3.com_VoiceText_2024-8-11_14-34-38.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Voie réservée (Bus, Taxi, Bicyclette)</td>
+                <td>Reserved lane (Bus, Taxi, Bicycle)</td>
+                <td><audio controls>
+                    <source src="m2ttsMP3.com_VoiceText_2024-8-11_14-36-5.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Zone Hachurée</td>
+                <td>Hatched Zone</td>
+                <td><audio controls>
+                    <source src="m3ttsMP3.com_VoiceText_2024-8-11_14-36-26.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Ligne continue</td>
+                <td>Continuous Line</td>
+                <td><audio controls>
+                    <source src="m4ttsMP3.com_VoiceText_2024-8-11_14-37-14.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Arrêt inutile</td>
+                <td>Unnecessary Stop</td>
+                <td><audio controls>
+                    <source src="m5ttsMP3.com_VoiceText_2024-8-11_14-37-34.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Mauvaise interprétation de signalisation (tourner à la mauvaise flèche, etc.)</td>
+                <td>Incorrect Interpretation of traffic signs (turning at the wrong arrow, etc.)</td>
+                <td><audio controls>
+                    <source src="m6ttsMP3.com_VoiceText_2024-8-11_14-39-13.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Chevauchement (rouler entre deux voies)</td>
+                <td>Overlapping (driving between two lanes)</td>
+                <td><audio controls>
+                    <source src="m7ttsMP3.com_VoiceText_2024-8-11_14-39-35.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Changer deux voies à la fois</td>
+                <td>Changing two lanes at once</td>
+                <td><audio controls>
+                    <source src="m8ttsMP3.com_VoiceText_2024-8-11_14-39-54.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Interblocage (s'engager dans une voie sans pouvoir la dégager)</td>
+                <td>Blocking (entering a lane without being able to clear it)</td>
+                <td><audio controls>
+                    <source src="m9ttsMP3.com_VoiceText_2024-8-11_14-40-15.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>S'arrêter dans un céder le passage si pas nécessaire</td>
+                <td>Stopping at a yield sign when not necessary</td>
+                <td><audio controls>
+                    <source src="m10ttsMP3.com_VoiceText_2024-8-11_14-40-33.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>S'arrêter au panneau de présignalisation</td>
+                <td>Stopping at a pre-signaling panel</td>
+                <td><audio controls>
+                    <source src="m11ttsMP3.com_VoiceText_2024-8-11_14-40-53.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Frôler un cycliste à moins 1 mètre à 50km/h et moins</td>
+                <td>Passing a cyclist with less than 1 meter at 50km/h or less</td>
+                <td><audio controls>
+                    <source src="m12ttsMP3.com_VoiceText_2024-8-11_14-41-18.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                <td>Changer de voie dans une intersection</td>
+                <td>Changing lanes in an intersection</td>
+                <td><audio controls>
+                    <source src="m13ttsMP3.com_VoiceText_2024-8-11_14-41-36.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio></td>
+            </tr>
+            <tr>
+                
+                <tr>
+                  <td>Ne pas respecter un corridor de sécurité </td>
+                  <td>Not respecting a safety corridor</td>
+                  <td><audio controls>
+                      <source src="m14ttsMP3.com_VoiceText_2024-8-11_14-41-58.mp3" type="audio/mp3">
+                      Your browser does not support the audio element.
+                  </audio></td>
+              </tr>
+             
+          </tbody>
+      </table>
+      <br><br>
+      
+
+
+
+      <h1>Script exemple</h1>
+      <table>
+          <thead>
+              <tr>
+                  <th>French</th>
+                  <th>English</th>
+                  <th>Audio</th>
+              </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>À l'accueil (Veuillez éteindre votre téléphone portable):
+                Le trajet prendra environ 30 minutes. Je vous indiquerai quand tourner à droite ou à gauche; si je ne dis rien, continuez tout droit.
+                Le trajet est prédéterminé, et il n'y a aucun piège.
+                Pour l'examen d'aujourd'hui, vous devez vérifier vos angles morts. Savez-vous comment faire ? Si non : vous devez effectuer une vérification par l'épaule en regardant par la vitre arrière avant de tourner ou de changer de voie. (faites une démonstration de l'angle mort)
+                Aussi, vous devez marquer un arrêt complet devant les panneaux stop.
+                Pour la vitesse, vous devez rouler proche de la limite de vitesse. Ne la dépassez pas, mais ne roulez pas trop lentement non plus.
+                Avez-vous des questions?
+                Je vous souhaite un bon examen !</td>
+              <td>At the beginning (Please turn off your cell phone):
+                The route will take about 30 minutes. I will tell you when to turn right or left; if I don't say anything, continue straight ahead.
+                The route is predetermined, and there are no tricks.
+                For today's exam, you must check your blind spots. Do you know how to do it? If not: you must make a shoulder check by looking at the back window before you turn or change lanes. (demonstrate the blind spot check)
+                Also, you must make a full stop at stop signs.
+                For speed, you should drive close to the speed limit. Don't exceed it, but don't drive too slowly either.
+                Do you have any questions?
+                I wish you a good exam!</td>
+              <td><audio controls src="script.mp3"></audio></td>
+          </tr>
+          
+          
+          </tbody>
+      </table>
+      
+
+      <footer>
+        <p>&copy; 2024 LADNANY youssef, Tous droits réservés.</p>
+    </footer>
+  </body>
+  </html>

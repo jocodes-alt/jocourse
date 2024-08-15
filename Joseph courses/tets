@@ -1,0 +1,1045 @@
+<!--<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours d'Anglais</title>
+    <style>
+
+body {
+            font-family: 'Roboto', sans-serif; /* Police par défaut pour le corps du texte */
+        }
+        .header-title {
+            font-family: 'Playfair Display', serif; /* Utilisation de Montserrat pour le titre du header */
+            font-size:60px;
+        }
+
+
+h2 {
+            margin-top: 0;
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+
+        body {
+            /*font-family: Arial, sans-serif;*/
+            margin:15px;
+            padding: 5px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 5px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+
+        .nav-links {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .nav-links a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #0056b3;
+            padding: 5px 10px;
+            border: 1px solid #0056b3;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        #tableau table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+#tableau th, #tableau td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+#tableau th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#tableau tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tableau tr:hover {
+  background-color: #ddd;
+}
+
+#tableau tr:nth-child(1) th {
+  background-color: #0000FF;
+  color: #ffffff;
+}
+
+#tableau tr:nth-child(1) th:nth-child(2) {
+  background-color: #FFCC00;
+}
+
+#tableau tr:nth-child(1) td {
+  border: none;
+}
+
+#tableau tr:nth-child(n+2) td {
+  border: 1px solid #ddd;
+}
+
+
+          /* Applique des bordures aux éléments du tableau */
+        .wp-block-table table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .wp-block-table th, .wp-block-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+
+        .wp-block-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .wp-block-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .wp-block-table tr:hover {
+            background-color: #ddd;
+        }
+
+        .wp-block-table tr:nth-child(1) th {
+            background-color: #0000FF;
+            color: #ffffff;
+        }
+
+        .wp-block-table tr:nth-child(1) th:nth-child(2) {
+            background-color: #FFCC00;
+        }
+
+
+        footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    clear: both; /* Assure que le footer est positionné en dessous du contenu */
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #ffdd57;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+         /*annimation h2
+         @keyframes complex-animation {
+    0% {
+        color: blue;
+        transform: translateX(40%);
+    }
+    25% {
+        color: green;
+        transform: translateX(25%);
+    }
+    50% {
+        color: red;
+        transform: translateX(0%);
+    }
+    75% {
+        color: purple;
+        transform: translateX(0%);
+    }
+    100% {
+        color: blue;
+        transform: translateX(0%);
+    }
+}
+
+h2 {
+    animation: complex-animation 3s infinite;
+    display: inline-block;
+}
+*/
+@keyframes subtle-animation {
+    0% {
+        color: #3498db;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        transform: scale(1);
+    }
+   
+    50% {
+        color: #e74c3c;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        transform: scale(1);
+    }
+    
+    
+    100% {
+        color: #3498db;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        transform: scale(1);
+    }
+}
+
+h2 {
+    display: inline-block;
+    animation: subtle-animation 8s infinite;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+      
+
+      /*header*/
+      .header-buttons {
+    text-align: center; /* Centrer les boutons horizontalement */
+}
+
+.button {
+    display: inline-block; /* Pour que les boutons se comportent comme des blocs en ligne */
+    padding: 10px 20px; /* Rembourrage intérieur des boutons */
+    margin: 5px; /* Marge autour des boutons */
+    background-color: #3498db; /* Couleur de fond des boutons */
+    color: white; /* Couleur du texte des boutons */
+    text-decoration: none; /* Enlever le soulignement des liens */
+    border: none; /* Supprimer la bordure par défaut des liens */
+    border-radius: 5px; /* Coins arrondis des boutons */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur de la souris en pointeur pour indiquer que c'est cliquable */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur de fond */
+}
+
+.button:hover {
+    background-color: #2980b9; /* Couleur de fond au survol */
+}
+
+    </style>
+</head>
+<body> 
+  <header class="header">
+    <h1 class="header-title">Cours d'Anglais pour Himi</h1>
+    <div class="header-buttons">
+        <a href="#alphabet" class="button">Alphabet</a>
+        <a href="#salutations" class="button">Salutations</a>
+        <a href="#introductions" class="button">Introductions</a>
+        <a href="#nombres" class="button">Nombres</a>
+        <a href="#jours" class="button">Jours de la Semaine</a>
+        <a href="#mois" class="button">Mois de l'Année</a><br><br>
+        <a href="#tableau" class="button">Fiche</a>
+        <a href="#CL" class="button">Connecteurs logiques</a>
+        <a href="#Vocab" class="button">Vocabulaire</a>
+    </div>
+</header>
+
+  
+  <!--
+      <div class="container">
+        <h1>Cours d'Anglais pour Himi</h1>
+        <div class="nav-links">
+            <a href="#alphabet">Alphabet</a>
+            <a href="#salutations">Salutations</a>
+            <a href="#introductions">Introductions</a>
+            <a href="#nombres">Nombres</a>
+            <a href="#jours">Jours de la Semaine</a>
+            <a href="#mois">Mois de l'Année</a><br> <br>
+            <a href="#tableau">Fiche</a>
+            <a href="#CL">Connecteurs logiques</a>
+            <a href="#Vocab">Vocabulaire</a>
+        </div> -->
+
+        <div id="alphabet" class="section">
+          <h2>Alphabet anglais avec exemples de mots</h2>
+          <ul>
+              <li>A - [eɪ] - Apple (pomme)</li>
+              <li>B - [biː] - Ball (balle)</li>
+              <li>C - [siː] - Cat (chat)</li>
+              <li>D - [diː] - Dog (chien)</li>
+              <li>E - [iː] - Elephant (éléphant)</li>
+              <li>F - [ɛf] - Fish (poisson)</li>
+              <li>G - [dʒiː] - Goat (chèvre)</li>
+              <li>H - [eɪtʃ] - Hat (chapeau)</li>
+              <li>I - [aɪ] - Ice (glace)</li>
+              <li>J - [dʒeɪ] - Jug (cruche)</li>
+              <li>K - [keɪ] - Kite (cerf-volant)</li>
+              <li>L - [ɛl] - Lion (lion)</li>
+              <li>M - [ɛm] - Monkey (singe)</li>
+              <li>N - [ɛn] - Nose (nez)</li>
+              <li>O - [oʊ] - Orange (orange)</li>
+              <li>P - [piː] - Pen (stylo)</li>
+              <li>Q - [kjuː] - Queen (reine)</li>
+              <li>R - [ɑːr] - Rabbit (lapin)</li>
+              <li>S - [ɛs] - Sun (soleil)</li>
+              <li>T - [tiː] - Table (table)</li>
+              <li>U - [juː] - Umbrella (parapluie)</li>
+              <li>V - [viː] - Van (camionnette)</li>
+              <li>W - [ˈdʌbəl.juː] - Water (eau)</li>
+              <li>X - [ɛks] - Xylophone (xylophone)</li>
+              <li>Y - [waɪ] - Yellow (jaune)</li>
+              <li>Z - [zɛd] (UK) / [ziː] (US) - Zebra (zèbre)</li>
+          </ul>
+      </div>
+
+      <div id="salutations" class="section">
+          <h2>Salutations en anglais avec exemples de conversations</h2>
+          <p><strong>Hello! (Bonjour!)</strong></p>
+          <p>Hello! How are you? (Bonjour! Comment ça va?)<br>
+          I'm fine thank you. And you? (Je vais bien merci. Et vous/toi?)</p>
+          
+          <p><strong>Hi! (Salut!)</strong></p>
+          <p>Hi! What's up? (Salut! Quoi de neuf?)<br>
+          Not much. You? (Pas grand-chose. Et toi?)</p>
+          
+          <p><strong>Good morning! (Bon matin!)</strong></p>
+          <p>Good morning! Did you sleep well? (Bon matin! As-tu bien dormi?)<br>
+          Yes I did. How about you? (Oui très bien. Et toi?)</p>
+          
+          <p><strong>Good afternoon! (Bon après-midi!)</strong></p>
+          <p>Good afternoon! How's your day going? (Bon après-midi! Comment se passe ta journée?)<br>
+          It's going well thanks. (Ça va bien merci.)</p>
+          
+          <p><strong>Good evening! (Bonsoir!)</strong></p>
+          <p>Good evening! How was your day? (Bonsoir! Comment s'est passée ta journée?)<br>
+          It was good thank you. (Elle a été bonne merci.)</p>
+          
+          <p><strong>How are you? (Comment ça va?)</strong></p>
+          <p>I'm good thank you. And you? (Je vais bien merci. Et vous/toi?)<br>
+          I'm doing well thanks. (Je vais bien merci.)</p>
+      </div>
+
+      <div id="introductions" class="section">
+          <h2>Introductions en anglais avec exemples de conversations</h2>
+          <p><strong>What's your name? (Comment vous appelez-vous?)</strong></p>
+          <p>My name is [Nom]. (Je m'appelle [Nom].)<br>
+          Nice to meet you [Nom]. (Enchanté [Nom].)<br>
+          Nice to meet you too. (Enchanté aussi.)</p>
+          
+          <p><strong>Where are you from? (D'où venez-vous?)</strong></p>
+          <p>I am from [Lieu]. (Je viens de [Lieu].)<br>
+          Oh that's interesting! (Oh c'est intéressant!)<br>
+          Where are you from? (D'où viens-tu?)<br>
+          I am from [Lieu]. (Je viens de [Lieu].)</p>
+          
+          <p><strong>What do you do? (Que faites-vous dans la vie?)</strong></p>
+          <p>I am a [Profession]. (Je suis [Profession].)<br>
+          That's a great job! (C'est un super boulot!)<br>
+          What about you? (Et toi?)<br>
+          I work as a [Profession]. (Je travaille comme [Profession].)</p>
+      </div>
+
+      <div id="nombres" class="section">
+          <h2>Nombres en anglais avec exemples d'utilisation</h2>
+          <ul>
+              <li>1 - One</li>
+              <li>2 - Two</li>
+              <li>3 - Three</li>
+              <li>4 - Four</li>
+              <li>5 - Five</li>
+              <li>6 - Six</li>
+              <li>7 - Seven</li>
+              <li>8 - Eight</li>
+              <li>9 - Nine</li>
+              <li>10 - Ten</li>
+              <li>11 - Eleven</li>
+              <li>12 - Twelve</li>
+              <li>13 - Thirteen</li>
+              <li>14 - Fourteen</li>
+              <li>15 - Fifteen</li>
+              <li>16 - Sixteen</li>
+              <li>17 - Seventeen</li>
+              <li>18 - Eighteen</li>
+              <li>19 - Nineteen</li>
+              <li>20 - Twenty</li>
+              <li>21 - Twenty-one</li>
+              <li>30 - Thirty</li>
+              <li>40 - Forty</li>
+              <li>50 - Fifty</li>
+              <li>60 - Sixty</li>
+              <li>70 - Seventy</li>
+              <li>80 - Eighty</li>
+              <li>90 - Ninety</li>
+              <li>100 - One hundred</li>
+          </ul>
+          <p>Exemples d'utilisation</p>
+          <p>I have three apples. (J'ai trois pommes.)<br>
+          There are twenty students in the class. (Il y a vingt étudiants dans la classe.)<br>
+          He is fifty years old. (Il a cinquante ans.)</p>
+      </div>
+
+      <div id="jours" class="section">
+          <h2>Jours de la semaine en anglais avec exemples d'utilisation</h2>
+          <ul>
+              <li>Monday (Lundi)</li>
+              <li>Tuesday (Mardi)</li>
+              <li>Wednesday (Mercredi)</li>
+              <li>Thursday (Jeudi)</li>
+              <li>Friday (Vendredi)</li>
+              <li>Saturday (Samedi)</li>
+              <li>Sunday (Dimanche)</li>
+          </ul>
+          <p>Exemples d'utilisation</p>
+          <p>I go to work on Monday. (Je vais au travail lundi.)<br>
+          We have a meeting on Wednesday. (Nous avons une réunion mercredi.)<br>
+          The weekend is Saturday and Sunday. (Le week-end c'est samedi et dimanche.)</p>
+      </div>
+
+      <div id="mois" class="section">
+          <h2>Mois de l'année en anglais avec exemples d'utilisation</h2>
+          <ul>
+              <li>January (Janvier)</li>
+              <li>February (Février)</li>
+              <li>March (Mars)</li>
+              <li>April (Avril)</li>
+              <li>May (Mai)</li>
+              <li>June (Juin)</li>
+              <li>July (Juillet)</li>
+              <li>August (Août)</li>
+              <li>September (Septembre)</li>
+              <li>October (Octobre)</li>
+              <li>November (Novembre)</li>
+              <li>December (Décembre)</li>
+          </ul>
+          <p>Exemples d'utilisation</p>
+          <p>My birthday is in July. (Mon anniversaire est en juillet.)<br>
+          We are going on vacation in August. (Nous partons en vacances en août.)<br>
+          Christmas is in December. (Noël est en décembre.)</p>
+      </div>
+
+
+      <div id="tableau" class="section">
+        <h2>Fiche</h2>
+        <table border="0" frame="VOID" rules="NONE" cellspacing="0">
+          <colgroup>
+          <col width="317" />
+          <col width="301" /></colgroup>
+          <tbody>
+          <tr>
+          <td align="CENTER" bgcolor="#0000FF" width="317" height="17"><b><span style="color: #ffffff;">FRANÇAIS</span></b></td>
+          <td align="CENTER" bgcolor="#FFCC00" width="301"><b>ANGLAIS</b></td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Bonjour</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Hello</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Bonjour (le matin)</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Good morning!</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Bonjour (l&rsquo;après-midi)</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Good afternoon!</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Salut</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Hi</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Bonsoir</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Good evening</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Bonne nuit</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Good night</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Comment allez-vous ? / Comment vas-tu ?</td>
+          <td align="LEFT" bgcolor="#FFFFFF">How are you? How are you doing?</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Très bien, merci.</td>
+          <td align="LEFT" bgcolor="#FFFFFF">I&rsquo;m fine, thank you. / I&rsquo;m okay. Thanks. / Fine, and you?</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Et vous ?</td>
+          <td align="LEFT" bgcolor="#FFFFFF">How about you?</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Ravi de vous rencontrer.</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Nice to meet you.</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Moi aussi.</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Nice to meet you too.</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">De même, pareillement</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Likewise</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Je suis content de te voir.</td>
+          <td align="LEFT" bgcolor="#FFFFFF">It&rsquo;s good/nice to see you.</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Ça me fait plaisir de vous revoir</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Nice/Good to see you again.</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Enchanté de faire votre connaissance.</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Pleased to meet you.</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Qu&rsquo;est-ce qui vous amène ici ?</td>
+          <td align="LEFT" bgcolor="#FFFFFF">What brings you here?</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Quel plaisir de vous voir !</td>
+          <td align="LEFT" bgcolor="#FFFFFF">How nice to see you!</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Quoi de neuf ?</td>
+          <td align="LEFT" bgcolor="#FFFFFF">What&rsquo;s up?</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Regardes qui voilà !</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Look who&rsquo;s here!</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Te voilà ! / vous voilà !</td>
+          <td align="LEFT" bgcolor="#FFFFFF">So there you are!</td>
+          </tr>
+          <tr>
+          <td colspan="2" align="CENTER" bgcolor="#FFFFCC" height="17"><b>Au moment de partir:</b></td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Il faut que j&rsquo;y aille</td>
+          <td align="LEFT" bgcolor="#FFFFFF">I&rsquo;ve got to go.</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">J&rsquo;étais très heureux de faire votre connaissance</td>
+          <td align="LEFT" bgcolor="#FFFFFF">It was good meeting you.</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Ça m&rsquo;a fait plaisir de vous revoir</td>
+          <td align="LEFT" bgcolor="#FFFFFF">It was great seeing you again.</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Ravi de t&rsquo;avoir revu après tout ce temps !</td>
+          <td align="LEFT" bgcolor="#FFFFFF">It was great to catch up!</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">On reste en contact !</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Keep in touch!</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Tiens moi au courant !</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Keep me posted!</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">À bientôt / à tout à l&rsquo;heure</td>
+          <td align="LEFT" bgcolor="#FFFFFF">See you later</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">À demain</td>
+          <td align="LEFT" bgcolor="#FFFFFF">See you tomorrow</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">Au revoir</td>
+          <td align="LEFT" bgcolor="#FFFFFF">Goodbye</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">À ce soir</td>
+          <td align="LEFT" bgcolor="#FFFFFF">See you tonight</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">À demain matin</td>
+          <td align="LEFT" bgcolor="#FFFFFF">See you in the morning</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">À un de ces jours</td>
+          <td align="LEFT" bgcolor="#FFFFFF">See you again sometime.</td>
+          </tr>
+          <tr>
+          <td align="LEFT" height="17">J&rsquo;espère que nous nous reverrons</td>
+          <td align="LEFT" bgcolor="#FFFFFF">I hope we&rsquo;ll meet again.</td>
+          </tr>
+          </tbody>
+          </table>
+      </div> <br><br><br>
+
+        <h2 id="Vocab">Vocabulaire </h2>
+      <div id="tableau" class="section" >
+      <table border="0" frame="VOID" rules="NONE" cellspacing="0">
+        <colgroup>
+        <col width="289">
+        <col width="281"></colgroup>
+        <tbody>
+        <tr>
+        <td align="CENTER" bgcolor="#336699" width="289" height="19"><b><span style="color: #ffffff;">FRANÇAIS</span></b></td>
+        <td align="CENTER" bgcolor="#FF0000" width="281"><b><span style="color: #ffffff;">ANGLAIS</span></b></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">une plaisanterie</span></td>
+        <td align="LEFT"><span style="color: #000000;">a joke </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">abattu, découragé</span></td>
+        <td align="LEFT"><span style="color: #000000;">downcast, dispirited </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">agité, énervé</span></td>
+        <td align="LEFT"><span style="color: #000000;">excited </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">ahuri</span></td>
+        <td align="LEFT"><span style="color: #000000;">dumbfounded </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">boudeur, maussade</span></td>
+        <td align="LEFT"><span style="color: #000000;">sulky, sullen </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">consterné</span></td>
+        <td align="LEFT"><span style="color: #000000;">dismayed&nbsp;&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">content de</span></td>
+        <td align="LEFT"><span style="color: #000000;">pleased with </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">déprimé</span></td>
+        <td align="LEFT"><span style="color: #000000;">dejected, depressed&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">effrayant</span></td>
+        <td align="LEFT"><span style="color: #000000;">frightening, scary, fearful&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">enchanté</span></td>
+        <td align="LEFT"><span style="color: #000000;">delighted </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">époustouflé</span></td>
+        <td align="LEFT"><span style="color: #000000;">ﬂabbergasted </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">gai, plein d’entrain</span></td>
+        <td align="LEFT"><span style="color: #000000;">cheerful </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">gai,joyeux</span></td>
+        <td align="LEFT"><span style="color: #000000;">merry &nbsp; </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">la colère</span></td>
+        <td align="LEFT"><span style="color: #000000;">anger </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">la gaieté</span></td>
+        <td align="LEFT"><span style="color: #000000;">mirth </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">la joie</span></td>
+        <td align="LEFT"><span style="color: #000000;">joy </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">la joie, l’allégresse</span></td>
+        <td align="LEFT"><span style="color: #000000;">glee </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">la peine, le chagrin, la tristesse</span></td>
+        <td align="LEFT"><span style="color: #000000;">sorrow&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">la peur</span></td>
+        <td align="LEFT"><span style="color: #000000;">fear&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">la satisfaction</span></td>
+        <td align="LEFT"><span style="color: #000000;">satisfaction </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">la terreur</span></td>
+        <td align="LEFT"><span style="color: #000000;">terror&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">la tristesse</span></td>
+        <td align="LEFT"><span style="color: #000000;">sadness&nbsp; </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">le bonheur</span></td>
+        <td align="LEFT"><span style="color: #000000;">happiness </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">le plaisir</span></td>
+        <td align="LEFT"><span style="color: #000000;">pleasure </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">passionnant</span></td>
+        <td align="LEFT"><span style="color: #000000;">exciting </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">radieux</span></td>
+        <td align="LEFT"><span style="color: #000000;">beaming </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">redoutable, effroyable</span></td>
+        <td align="LEFT"><span style="color: #000000;">formidable &nbsp; &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">stupéfait</span></td>
+        <td align="LEFT"><span style="color: #000000;">astonished &nbsp; </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">surprenant</span></td>
+        <td align="LEFT"><span style="color: #000000;">surprising&nbsp;&nbsp; </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">surpris</span></td>
+        <td align="LEFT"><span style="color: #000000;">surprised &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">terriﬁant</span></td>
+        <td align="LEFT"><span style="color: #000000;">terrifying</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">triste, mélancolique</span></td>
+        <td align="LEFT"><span style="color: #000000;">gloomy </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">un optimiste</span></td>
+        <td align="LEFT"><span style="color: #000000;">an optimist </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">un pessimiste</span></td>
+        <td align="LEFT"><span style="color: #000000;">a pessimist </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">une frayeur</span></td>
+        <td align="LEFT"><span style="color: #000000;">a fright&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="CENTER" bgcolor="#FFD320" height="20"><b><span style="color: #000000;">VERBES UTILES</span></b></td>
+        <td align="CENTER" bgcolor="#FFD320"><b><span style="color: #000000;">USEFUL VERBS</span></b></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">avoir peur de</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be afraid of, frightened of&nbsp; </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">avoir du chagrin à cause de quelque chose</span></td>
+        <td align="LEFT"><span style="color: #000000;">to grieve at sth&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">avoir le cafard</span></td>
+        <td align="LEFT"><span style="color: #000000;">to feel&nbsp;depressed </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">avoir peur de</span></td>
+        <td align="LEFT"><span style="color: #000000;">to fear </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">avoir sale caractère</span></td>
+        <td align="LEFT"><span style="color: #000000;">to have a nasty temper </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">avoir un fou rire</span></td>
+        <td align="LEFT"><span style="color: #000000;">to have an uncontrollable fit of laughter </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">avoir une peur bleue</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be scared stiff &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">broyer du noir</span></td>
+        <td align="LEFT"><span style="color: #000000;">to feel blue &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">éclater de rire</span></td>
+        <td align="LEFT"><span style="color: #000000;">to burst out laughing </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être attristé par</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be saddened by&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être au bord des larmes</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be close to, on the verge of tears</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être au comble de la joie</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be overwhelmed with joy&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être bouleversé</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be upset&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être&nbsp;craint</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be feared&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être de mauvaise humeur</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be in a&nbsp;bad mood, temper &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être en colère contre</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be angry with </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être épouvanté</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be appalled </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être furieux</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be furious&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être optimiste</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be optimistic </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être pessimiste</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be pessimistic &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">être terrorisé</span></td>
+        <td align="LEFT"><span style="color: #000000;">to be terriﬁed&nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">faire un grand sourire à</span></td>
+        <td align="LEFT"><span style="color: #000000;">to grin at </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">frissonner</span></td>
+        <td align="LEFT"><span style="color: #000000;">to shudder </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">froncer les sourcils</span></td>
+        <td align="LEFT"><span style="color: #000000;">to frown </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">gémir</span></td>
+        <td align="LEFT"><span style="color: #000000;">to wail &nbsp; </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">mourir de chagrin</span></td>
+        <td align="LEFT"><span style="color: #000000;">to die of grief </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">perdre son sang-froid</span></td>
+        <td align="LEFT"><span style="color: #000000;">to lose one’s self- control &nbsp; </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">plaisanter</span></td>
+        <td align="LEFT"><span style="color: #000000;">to joke </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">pleurer quelqu’un</span></td>
+        <td align="LEFT"><span style="color: #000000;">to grieve for somebody</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">prendre grand plaisir a faire quelque chose</span></td>
+        <td align="LEFT"><span style="color: #000000;">to revel in (+ing) </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">rayonner de joie</span></td>
+        <td align="LEFT"><span style="color: #000000;">to beam with joy </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">redouter</span></td>
+        <td align="LEFT"><span style="color: #000000;">to dread (+ing) &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">rendre furieux</span></td>
+        <td align="LEFT"><span style="color: #000000;">to infurlate &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">rire a gorge déployée</span></td>
+        <td align="LEFT"><span style="color: #000000;">to roar with laughter </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">rire nerveusement</span></td>
+        <td align="LEFT"><span style="color: #000000;">to giggle </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">s’emporter</span></td>
+        <td align="LEFT"><span style="color: #000000;">to flare up &nbsp; </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">sangloter</span></td>
+        <td align="LEFT"><span style="color: #000000;">to sob </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">sauter/pleurer de joie</span></td>
+        <td align="LEFT"><span style="color: #000000;">to jump/to weep for joy &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">se lamenter sur</span></td>
+        <td align="LEFT"><span style="color: #000000;">to whine about &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">se mettre en&nbsp;colère</span></td>
+        <td align="LEFT"><span style="color: #000000;">to lose one’s temper &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">se mettre en rage</span></td>
+        <td align="LEFT"><span style="color: #000000;">to ﬂy into a rage &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">se moquer de</span></td>
+        <td align="LEFT"><span style="color: #000000;">to laugh at, to leer at, to make fun of </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">se plaindre de</span></td>
+        <td align="LEFT"><span style="color: #000000;">to complain about </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">se vexer de</span></td>
+        <td align="LEFT"><span style="color: #000000;">to take offence at &nbsp;</span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">sourire à</span></td>
+        <td align="LEFT"><span style="color: #000000;">to smile at </span></td>
+        </tr>
+        <tr>
+        <td align="LEFT" height="20"><span style="color: #000000;">vivre sur les nerfs</span></td>
+        <td align="LEFT"><span style="color: #000000;">to live on one’s nerves </span></td>
+        </tr>
+        </tbody>
+        </table>
+      </div>
+
+
+
+
+        <h2 id="CL">Connecteurs logiques</h2><br>
+          <h2 class="wp-block-heading" id="commencer"><span class="ez-toc-section" id="Pour-comparer-et-opposer"></span>Pour comparer et opposer<span class="ez-toc-section-end"></span></h2>
+        <p>Vous devez opposer deux idées ou points de vue ? Exprimez l’opposition en anglais avec la liste de conjonctions qui suit.</p>
+          <figure class="wp-block-table"><table><thead><tr><th class="has-text-align-left" data-align="left"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Linking words</mark></th><th class="has-text-align-left" data-align="left"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Mots de liaison</mark></th><th class="has-text-align-right" data-align="right"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Audio</mark></th></tr></thead><tbody><tr><td class="has-text-align-left" data-align="left"><strong><em>Also</em></strong></td><td class="has-text-align-left" data-align="left">Aussi</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_095.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Although, though, even though</em></strong></td><td class="has-text-align-left" data-align="left">Bien que</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_096.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>As against</em></strong></td><td class="has-text-align-left" data-align="left">En opposition à</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_097.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>As if, as though</em></strong></td><td class="has-text-align-left" data-align="left">Comme si</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_098.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Contrary to</em></strong></td><td class="has-text-align-left" data-align="left">Contrairement à</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_099.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Despite</em></strong></td><td class="has-text-align-left" data-align="left">Malgré</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_100.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Even if, even though</em></strong></td><td class="has-text-align-left" data-align="left">Même si</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_101.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>However, nevertheless, nonetheless, though (placé en fin de phrase)</em></strong></td><td class="has-text-align-left" data-align="left">Cependant, toutefois, pourtant</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_102.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>In spite of (the fact that …)</em></strong></td><td class="has-text-align-left" data-align="left">Malgré (le fait que …)</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_103.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Likewise</em></strong></td><td class="has-text-align-left" data-align="left">De même, de la même manière que</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_104.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Meanwhile</em></strong></td><td class="has-text-align-left" data-align="left">Pendant ce temps</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_105.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Otherwise</em></strong></td><td class="has-text-align-left" data-align="left">Sinon, autrement</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_106.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Unlike</em></strong></td><td class="has-text-align-left" data-align="left">Contrairement à</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_107.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Whereas</em></strong></td><td class="has-text-align-left" data-align="left">Alors que</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_108.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>While</em></strong></td><td class="has-text-align-left" data-align="left">Tandis que</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_109.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Yet, still</em></strong></td><td class="has-text-align-left" data-align="left">Pourtant</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_110.mp3" preload="none"></audio></figure></td></tr></tbody></table></figure> <br><br><br><br>
+
+
+         
+
+
+
+
+
+
+
+
+          <h2 class="wp-block-heading" id="commencer"><span class="ez-toc-section" id="Pour-continuer-la-discussion"></span>Pour continuer la discussion<span class="ez-toc-section-end"></span></h2>
+<p>Pour <strong>détailler votre pensée, argumentation</strong> vous aurez besoin d’un peu plus de vocabulaire. Avec les mots de liaison suivants, vous serez capables de dire “de plus”, “par exemple”, “en effet”, etc.</p>
+<figure class="wp-block-table"><table><thead><tr><th class="has-text-align-left" data-align="left"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Linking words</mark></th><th class="has-text-align-left" data-align="left"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Mots de liaison</mark></th><th class="has-text-align-right" data-align="right"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Audio</mark></th></tr></thead><tbody><tr><td class="has-text-align-left" data-align="left"><strong><em>And</em></strong></td><td class="has-text-align-left" data-align="left">Et</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_082.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Next</em></strong></td><td class="has-text-align-left" data-align="left">Ensuite</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_083.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Secondly</em></strong></td><td class="has-text-align-left" data-align="left">Deuxièmement</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_084.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Also</em></strong></td><td class="has-text-align-left" data-align="left">Aussi</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_085.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>For example, for instance</em></strong></td><td class="has-text-align-left" data-align="left">Par exemple</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_086.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Furthermore, moreover</em></strong></td><td class="has-text-align-left" data-align="left">De plus</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_087.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Besides</em></strong></td><td class="has-text-align-left" data-align="left">En outre</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_088.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>In other words</em></strong></td><td class="has-text-align-left" data-align="left">En d’autres mots</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_089.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>That is to say</em></strong></td><td class="has-text-align-left" data-align="left">C’est à dire</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_090.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Such as</em></strong></td><td class="has-text-align-left" data-align="left">Comme par exemple</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_091.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Indeed</em></strong></td><td class="has-text-align-left" data-align="left">En effet</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_092.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>As a matter of fact</em></strong></td><td class="has-text-align-left" data-align="left">À vrai dire, en réalité</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_093.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>In addition to …</em></strong></td><td class="has-text-align-left" data-align="left">De plus … (pour compléter ce qui vient d’être dit)</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_094.mp3" preload="none"></audio></figure></td></tr></tbody></table></figure>
+
+
+          
+
+
+
+<h2 class="wp-block-heading" id="commencer"><span class="ez-toc-section" id="Pour-argumenter-cause-consequence"></span>Pour argumenter (cause, conséquence)<span class="ez-toc-section-end"></span></h2>
+<p>Les connecteurs logiques suivants sont employées pour dire “parce que”, “par conséquent”, “car”, etc. Ces mots de liaison sont utiles pour démontrer un <strong>lien logique de cause à effet entre plusieurs éléments</strong> lorsque vous devez argumenter.</p>
+<figure class="wp-block-table"><table><thead><tr><th class="has-text-align-left" data-align="left"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Linking words</mark></th><th class="has-text-align-left" data-align="left"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Mots de liaison</mark></th><th class="has-text-align-right" data-align="right"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Audio</mark></th></tr></thead><tbody><tr><td class="has-text-align-left" data-align="left"><strong><em>As a result</em></strong></td><td class="has-text-align-left" data-align="left">En conséquence</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_063.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>As a result of</em></strong></td><td class="has-text-align-left" data-align="left">À la suite de</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_064.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>As soon as</em></strong></td><td class="has-text-align-left" data-align="left">Dès que</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_065.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Because</em></strong></td><td class="has-text-align-left" data-align="left">Parce que</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_066.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Because of</em></strong></td><td class="has-text-align-left" data-align="left">À cause de</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_067.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Consequently</em></strong></td><td class="has-text-align-left" data-align="left">Par conséquent</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_068.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Due to</em></strong></td><td class="has-text-align-left" data-align="left">En raison de</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_069.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>In order (not) to</em></strong></td><td class="has-text-align-left" data-align="left">Afin de (ne pas)</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_070.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Since</em></strong></td><td class="has-text-align-left" data-align="left">Puisque</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_071.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>So (that)</em></strong></td><td class="has-text-align-left" data-align="left">De façon à ce que</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_072.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>So</em></strong></td><td class="has-text-align-left" data-align="left">Donc</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_073.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>So as (not) to</em></strong></td><td class="has-text-align-left" data-align="left">De façon à (ne pas)</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_074.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Thanks to</em></strong></td><td class="has-text-align-left" data-align="left">Grâce à</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_075.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>That is the reason why</em></strong></td><td class="has-text-align-left" data-align="left">C’est la raison pour laquelle</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_076.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Therefore</em></strong></td><td class="has-text-align-left" data-align="left">Par conséquent</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_077.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>That is why</em></strong></td><td class="has-text-align-left" data-align="left">C’est pourquoi</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_078.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>But</em></strong></td><td class="has-text-align-left" data-align="left">Mais</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_079.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>On the one hand … on the other hand</em></strong></td><td class="has-text-align-left" data-align="left">D’un côté … de l’autre côté</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_080.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Then</em></strong></td><td class="has-text-align-left" data-align="left">Alors</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_081.mp3" preload="none"></audio></figure></td></tr></tbody></table></figure>
+
+
+        
+
+<h2 class="wp-block-heading"><span class="ez-toc-section" id="Pour-finir-un-discours"></span>Pour finir un discours<span class="ez-toc-section-end"></span></h2>
+<p>La conclusion est une partie essentielle lorsque vous communiquez dans une langue. Vous pouvez utiliser les locutions suivantes afin de <strong>conclure un discours tout en résumant ou en ajoutant un point supplémentaire</strong> à votre texte.</p>
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th class="has-text-align-left" data-align="left"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Linking words</mark></th><th class="has-text-align-left" data-align="left"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Mots de liaison</mark></th><th class="has-text-align-right" data-align="right"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-global-color-10-color">Audio</mark></th></tr></thead><tbody><tr><td class="has-text-align-left" data-align="left"><strong><em>In conclusion, to conclude</em></strong></td><td class="has-text-align-left" data-align="left">En conclusion, pour conclure</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_116.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>To sum up, all in all, in short, in brief</em></strong></td><td class="has-text-align-left" data-align="left">Pour résumé, en bref</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_117.mp3" preload="none"></audio></figure></td></tr><tr><td class="has-text-align-left" data-align="left"><strong><em>Lastly, finally</em></strong></td><td class="has-text-align-left" data-align="left">Enfin, finalement</td><td class="has-text-align-right" data-align="right"><figure controls="" class="wp-block-audio"><audio controls="" src="https://www.ispeakspokespoken.com/wp-content/uploads/mots_de_liaison_ispeakspokespoken_118.mp3" preload="none"></audio></figure></td></tr></tbody></table></figure>
+
+
+  
+
+  </div>
+
+    
+    <footer>
+        <p>&copy; 2024 LADNANY youssef, Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+butttttttttoooon
+
+button {
+    width: 70px;
+    margin-left: 10px; /* Marge à gauche */
+    padding: 12px 20px; /* Rembourrage intérieur */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #2ecc71; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    cursor: pointer; /* Curseur en pointeur */
+    transition: background-color 0.3s ease; /* Transition de couleur de fond */
+}
+
+button:hover {
+    background-color: #27ae60; /* Couleur de fond au survol */
+}
